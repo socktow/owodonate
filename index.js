@@ -19,8 +19,8 @@ client.on('message', async (message, args) => {
   let owocash = await db.get(message.author.id)
 
   message.channel.awaitMessages(filter, {max:1,time: 5000,errors:["time"]}).then(async (collected) => {
-    const user = message.guild.members.cache.get(message.author.id)
-    const msg = collected.first().content
+    const user =message.guild.members.cache.get(message.author.id)
+    const msg =  collected.first().content
    console.log(msg)
 
 
@@ -30,6 +30,7 @@ client.on('message', async (message, args) => {
     .replace('** sent **','')
     .replace(' cowoncy** to **','')
     .replace(message.author.username,'')
+    .replace(donate,'')
     .replace(',','')
     const cash = parseInt(str) 
     owocash = owocash + cash
