@@ -4,8 +4,6 @@
   "role_id":"653641501787815955",
   "emoji_id":"704210617405538314",
   "amount_requested2":"1500000",
-  "role2_id":"653641565389979679",
-  "emoji2_id":"704210617405538314",
   "message_reply":"**Cảm ơn <author> , bạn đã donate tổng <amount> cowoncy cho <server>**",
   "owoprefix": "e"
 }
