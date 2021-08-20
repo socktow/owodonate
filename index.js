@@ -32,7 +32,7 @@ client.on('message', async (message, args) => {
     .replace(message.author.username,'')
     .replace(donate,'')
     .replace(',','')
-    const cash = parseInt(str) 
+    const cash = parseFloat((str).replace(",", ""))  
     owocash = owocash + cash
     console.log(owocash)
     await db.set(message.author.id, owocash)
