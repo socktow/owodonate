@@ -14,7 +14,7 @@ Request
 
 - role_id | "id role" - " " if you don't want  
 
--message_reply | " <author>  <amount> <server> " 
+- message_reply | " <author>  <amount> <server> " 
 
--owoprefix | use command with owo bot `owoprefix` and edit it 
+- owoprefix | use command with owo bot `owoprefix` and edit it 
   
