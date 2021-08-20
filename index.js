@@ -11,7 +11,7 @@ const db = require("quick.db")
 client.on('message', async (message, args) => {
   if (!message.guild) return;
   if (message.author.bot) return;
-  const filter = (m) => m.author.id === "869885944965263370";
+  const filter = (m) => m.author.id === "408785106942164992";
   const donate = config.username
   if (message.content.replace(/ /g,'').toLowerCase().startsWith("e"+"donate") || message.content.replace(/ /g,'').toLowerCase().startsWith(config.owoprefix+"donate")) {
   let check = await db.get(message.author.id)
