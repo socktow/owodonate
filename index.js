@@ -13,7 +13,7 @@ client.on('message', async (message, args) => {
   if (message.author.bot) return;
   const filter = (m) => m.author.id === "408785106942164992";
   const donate = config.username
-  if (message.content.replace(/ /g,'').toLowerCase().startsWith("e"+"donate") || message.content.replace(/ /g,'').toLowerCase().startsWith(config.owoprefix+"donate")) {
+  if (message.content.replace(/ /g,'').toLowerCase().startsWith("e"+"give") || message.content.replace(/ /g,'').toLowerCase().startsWith(config.owoprefix+"give")) {
   let check = await db.get(message.author.id)
   if (check == null) db.set(message.author.id, 0)
   let owocash = await db.get(message.author.id)
