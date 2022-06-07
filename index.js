@@ -91,4 +91,4 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} is online!`)
 })
 
-client.login('ODY5ODg1OTQ0OTY1MjYzMzcw.YQEuag._9ZiTqXpmlOJGmyHwcFT1CfSEF4')
+client.login('')
